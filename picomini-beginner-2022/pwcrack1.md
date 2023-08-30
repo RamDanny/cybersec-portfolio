@@ -2,4 +2,6 @@
 
 Download ```level1.py``` and ```level1.flag.txt.enc```
 
-Run ```level1.py``` to get decrypted flag
+Run ```level1.py```
+
+Enter password (mentioned in code) to get decrypted flag

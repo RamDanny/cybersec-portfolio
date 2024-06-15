@@ -1,1 +1,1 @@
-### My writeups for CTF challenges
+### Collection of portfolio projects, ctf writeups etc. in cybersecurity

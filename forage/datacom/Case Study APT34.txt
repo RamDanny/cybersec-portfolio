@@ -1,0 +1,17 @@
+1. What is their history?
+In May 2016, APT34 led a spear phishing campaign targeting banks in the Middle East region that used macro-enabled attachments to distribute POWBAT malware. In July 2017, APT34 targeted a Middle East organization using a PowerShell-based backdoor that called POWRUNER and a downloader with domain generation algorithm functionality that called BONDUPDATER, based on strings within the malware. The backdoor was delivered via a malicious .rtf file that exploited CVE-2017-0199. Less than a week after Microsoft issued a patch for CVE-2017-11882 on Nov. 14, 2017, an attacker was observed using an exploit for the Microsoft Office vulnerability to target a government organization in the Middle East. This activity was suspected to be carried out by APT34, using a custom PowerShell backdoor to achieve its objectives. In this latest campaign, APT34 leveraged the recent Microsoft Office vulnerability CVE-2017-11882 to deploy POWRUNER and BONDUPDATER. In late June 2019, APT34 conducted a phishing campaign by: masquerading as a member of Cambridge University to gain victims’ trust to open malicious documents, the usage of LinkedIn to deliver malicious documents, the addition of three new malware families to APT34’s arsenal.
+
+2. Which nation/state are they associated with?
+APT34 is involved in a long-term cyber espionage operation largely focused on reconnaissance efforts to benefit Iranian nation-state interests.
+
+3. Do they target specific industries?
+This threat group has conducted broad targeting across a variety of industries, including financial, government, energy, chemical, and telecommunications, and has largely focused its operations within the Middle East.
+
+4. What are their motives?
+APT34 works on behalf of the Iranian government based on infrastructure details that contain references to Iran, use of Iranian infrastructure, and targeting that aligns with nation-state interests.
+
+5. What are the TTPs they use to conduct their attacks?
+APT34 uses a mix of public and non-public tools, often conducting spear phishing operations using compromised accounts, sometimes coupled with social engineering tactics.
+
+6. What security measures could the client implement to defend against cyberattacks conducted by this APT?
+APT34 actively searches for vulnerabilities that they can weaponize. After gaining access to a compromised network, they attempt to establish multiple entry points and steal legitimate user credentials to maintain access even after vulnerabilities have been patched. In addition to patching, organizations must gain visibility on their endpoints, particularly internet-facing and business-critical servers. This visibility lets network defenders detect and rapidly respond to network intrusions.

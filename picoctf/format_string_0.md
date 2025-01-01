@@ -55,6 +55,7 @@ void serve_bob() {
         printf(choice2);
         fflush(stdout);
     }
+}
 ```
 
 Inside `serve_bob`, there seems to be no condition that prints the flag. This can seem puzzling until the rest of the code is analyzed.
